@@ -1,0 +1,13 @@
+source 'http://github.com/binghuan/PrivateSpecRepo.git'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'bind' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for bind
+  pod 'Hello', '~> 1.0.0'
+
+end

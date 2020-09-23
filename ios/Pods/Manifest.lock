@@ -1,0 +1,16 @@
+PODS:
+  - Hello (1.0.0)
+
+DEPENDENCIES:
+  - Hello (~> 1.0.0)
+
+SPEC REPOS:
+  http://github.com/binghuan/PrivateSpecRepo.git:
+    - Hello
+
+SPEC CHECKSUMS:
+  Hello: afa457fad9463bb98e4af0de33461b37495355d1
+
+PODFILE CHECKSUM: c1ec82155ea5d94f548ba0c3fa562bc47f2c18bb
+
+COCOAPODS: 1.8.4
