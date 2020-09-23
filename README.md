@@ -22,3 +22,10 @@ You can take following link for reference.
 	pod 'Hello', '~> 1.0.0’
 </code>
 
+# Demo
+![](./images/demo.gif)
+
+# Related Project: 
+- PrivateSpecRepo: <https://github.com/binghuan/PrivateSpecRepo>
+- Hello: <https://github.com/binghuan/Hello>
+- use_private_repo: <https://github.com/binghuan/use_private_pod>
