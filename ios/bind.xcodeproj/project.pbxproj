@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		353E038F595B3F27FA579FD9 /* Pods_bind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25C78A0021B566E8D0D469 /* Pods_bind.framework */; };
+		C46A2FB520932F5E3D425EBB /* Pods_bind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0372046B2D21C5FF7591C6B8 /* Pods_bind.framework */; };
 		EBA3E2861B681AFA00018449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2851B681AFA00018449 /* main.m */; };
 		EBA3E2891B681AFA00018449 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2881B681AFA00018449 /* AppDelegate.m */; };
 		EBA3E28C1B681AFA00018449 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E28B1B681AFA00018449 /* ViewController.m */; };
@@ -29,9 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7233023329C4814DA1EA7794 /* Pods-bind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bind.release.xcconfig"; path = "Target Support Files/Pods-bind/Pods-bind.release.xcconfig"; sourceTree = "<group>"; };
-		A7B1A1B69B0C0F39E95D7D00 /* Pods-bind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bind.debug.xcconfig"; path = "Target Support Files/Pods-bind/Pods-bind.debug.xcconfig"; sourceTree = "<group>"; };
-		CB25C78A0021B566E8D0D469 /* Pods_bind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0372046B2D21C5FF7591C6B8 /* Pods_bind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A22B8ADB892CE1932997DF /* Pods-bind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bind.debug.xcconfig"; path = "Target Support Files/Pods-bind/Pods-bind.debug.xcconfig"; sourceTree = "<group>"; };
+		70AC51650B3B7FDD53F4FB88 /* Pods-bind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bind.release.xcconfig"; path = "Target Support Files/Pods-bind/Pods-bind.release.xcconfig"; sourceTree = "<group>"; };
 		EBA3E2801B681AFA00018449 /* bind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3E2841B681AFA00018449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA3E2851B681AFA00018449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353E038F595B3F27FA579FD9 /* Pods_bind.framework in Frameworks */,
+				C46A2FB520932F5E3D425EBB /* Pods_bind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +58,16 @@
 		5CAFA548FD7D2819CBD9235D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB25C78A0021B566E8D0D469 /* Pods_bind.framework */,
+				0372046B2D21C5FF7591C6B8 /* Pods_bind.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B7DF61AE73937E5C34EC1505 /* Pods */ = {
+		DBA18EEE1485DC5B84DFF1BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7B1A1B69B0C0F39E95D7D00 /* Pods-bind.debug.xcconfig */,
-				7233023329C4814DA1EA7794 /* Pods-bind.release.xcconfig */,
+				11A22B8ADB892CE1932997DF /* Pods-bind.debug.xcconfig */,
+				70AC51650B3B7FDD53F4FB88 /* Pods-bind.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -77,8 +77,8 @@
 			children = (
 				EBA3E2821B681AFA00018449 /* bind */,
 				EBA3E2811B681AFA00018449 /* Products */,
-				B7DF61AE73937E5C34EC1505 /* Pods */,
 				5CAFA548FD7D2819CBD9235D /* Frameworks */,
+				DBA18EEE1485DC5B84DFF1BE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -348,14 +348,13 @@
 		};
 		EBA3E2A41B681AFB00018449 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B1A1B69B0C0F39E95D7D00 /* Pods-bind.debug.xcconfig */;
+			baseConfigurationReference = 11A22B8ADB892CE1932997DF /* Pods-bind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Pods/EaglehorseLibs/EaglehorseLibs/Frameworks",
 				);
 				INFOPLIST_FILE = bind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -366,14 +365,13 @@
 		};
 		EBA3E2A51B681AFB00018449 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7233023329C4814DA1EA7794 /* Pods-bind.release.xcconfig */;
+			baseConfigurationReference = 70AC51650B3B7FDD53F4FB88 /* Pods-bind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Pods/EaglehorseLibs/EaglehorseLibs/Frameworks",
 				);
 				INFOPLIST_FILE = bind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

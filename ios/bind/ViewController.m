@@ -3,8 +3,7 @@
 // license that can be found in the LICENSE file.
 
 #import "ViewController.h"
-//@import Hello;  // Gomobile bind generated framework
-@import Libs;
+@import Hello;  // Gomobile bind generated framework
 
 @interface ViewController ()
 @end
@@ -16,9 +15,9 @@
 - (void)loadView {
     [super loadView];
     
-//    NSString *text = HelloGreetings(@"iOS and Gopher");
-//    NSLog(@"%@", text);
-//    textLabel.text = HelloGreetings(text);
+    NSString *text = HelloGreetings(@"iOS and Gopher");
+    textLabel.text = HelloGreetings(text);
+    NSLog(@"%@", text);
 }
 
 @end
