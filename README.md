@@ -2,9 +2,8 @@
 
 ![](./images/Slide1.png)
 
-# How to Create a Private Spec Repo
-You can take following link for reference.   
-<https://guides.cocoapods.org/making/private-cocoapods.html>
+# Create a Private Spec Repo
+PrivateSpecRepo: <https://github.com/binghuan/PrivateSpecRepo>
 
 ![](./images/Slide2.png)
 
@@ -26,6 +25,6 @@ You can take following link for reference.
 ![](./images/demo.gif)
 
 # Related Project: 
-- PrivateSpecRepo: <https://github.com/binghuan/PrivateSpecRepo>
+- How to create cocoapods <https://guides.cocoapods.org/making/private-cocoapods.html>
 - Hello: <https://github.com/binghuan/Hello>
 - use_private_repo: <https://github.com/binghuan/use_private_pod>
